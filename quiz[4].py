@@ -1,7 +1,5 @@
 scores=[90, 45, 64, 9, 17, 29]
-
 results = []
-
 for score in scores:
     if score >= 71:
          grade = 'A'
@@ -15,6 +13,6 @@ for score in scores:
     elif score >= 10:
          grade = 'D'
 
-results.append(grade)
+    results.append(grade)
 
 print(results)
